@@ -2,6 +2,10 @@ import org.opencv.core.*;
 import org.opencv.highgui.Highgui;
 import org.opencv.objdetect.CascadeClassifier;
 
+import java.io.File;
+import java.net.URI;
+import java.net.URISyntaxException;
+
 /**
  * Created with IntelliJ IDEA.
  * User: lukasmartinovic
@@ -14,10 +18,22 @@ class DetectFaceDemo {
     public void run() {
         System.out.println("\nRunning DetectFaceDemo");
 
-        // Create a face detector from the cascade file in the resources
-        // directory.
+        //-> for mac
         CascadeClassifier faceDetector = new CascadeClassifier(getClass().getResource("/lbpcascade_frontalface.xml").getPath());
-        Mat image = Highgui.imread(getClass().getResource("/jlo.jpg").getPath());
+        Mat image = Highgui.imread(getClass().getResource("/lena.png").getPath());
+        //<- for mac
+
+        //-> for windows
+        try {
+            URI xmlUri = getClass().getResource("/lbpcascade_frontalface.xml").toURI();
+            faceDetector =
+                    new CascadeClassifier(new File(xmlUri).getAbsolutePath());
+            URI imageUri = getClass().getResource("/lena.png").toURI();
+            image = Highgui.imread(new File(imageUri).getAbsolutePath());
+        } catch (URISyntaxException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+        //<- for windows
 
         // Detect faces in the image.
         // MatOfRect is a special container class for Rect.
@@ -41,9 +57,9 @@ class DetectFaceDemo {
 public class JavaCVTest {
     public static void main(String[] args) throws Exception {
 
-
-        String libopencv_java = "/Users/lukasmartinovic/Downloads/opencv-2.4.8/build/lib/libopencv_java248.dylib";
-        System.load(libopencv_java);
+        String libopencv_java_win = "D:\\School\\Diplomova_praca\\Intellij\\SFM\\workspace\\StructureFromMotion\\src\\main\\lib\\opencv-2.4.8\\build\\bin\\x64\\opencv_java248.dll";
+        String libopencv_java_mac = "/Users/lukasmartinovic/Downloads/opencv-2.4.8/build/lib/libopencv_java248.dylib";
+        System.load(libopencv_java_win);
         //System.loadLibrary("opencv_java248");
 
         /*Mat m = new Mat(5, 10, CvType.CV_8UC1, new Scalar(0));
