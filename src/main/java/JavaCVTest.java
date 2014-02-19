@@ -56,11 +56,20 @@ class DetectFaceDemo {
 
 public class JavaCVTest {
     public static void main(String[] args) throws Exception {
+        String osName = System.getProperty("os.name");
+        System.out.println( osName );
 
-        String libopencv_java_win = "D:\\School\\Diplomova_praca\\Intellij\\SFM\\workspace\\StructureFromMotion\\src\\main\\lib\\opencv-2.4.8\\build\\bin\\x64\\opencv_java248.dll";
-        String libopencv_java_mac = "/Users/lukasmartinovic/Downloads/opencv-2.4.8/build/lib/libopencv_java248.dylib";
-        System.load(libopencv_java_win);
-        //System.loadLibrary("opencv_java248");
+        String libopencv_java = "";
+        if( osName.equalsIgnoreCase("Mac OS X") ){
+
+            libopencv_java  = "D:\\School\\Diplomova_praca\\Intellij\\SFM\\workspace\\StructureFromMotion\\src\\main\\lib\\opencv-2.4.8\\build\\bin\\x64\\opencv_java248.dll";
+
+        }else if( osName.equalsIgnoreCase("Mac OS X") ){
+
+            libopencv_java  = "/Users/lukasmartinovic/Downloads/opencv-2.4.8/build/lib/libopencv_java248.dylib";
+
+        }
+        System.load( libopencv_java );
 
         /*Mat m = new Mat(5, 10, CvType.CV_8UC1, new Scalar(0));
         System.out.println("OpenCV Mat: " + m);
