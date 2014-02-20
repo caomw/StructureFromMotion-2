@@ -23,8 +23,8 @@ class DetectFaceDemo {
         URI img1Uri = null;
         URI img2Uri = null;
         try {
-            img1Uri = getClass().getResource("/lena.png").toURI();
-            img2Uri = getClass().getResource("/lena.png").toURI();
+            img1Uri = getClass().getResource("/i1.JPG").toURI();
+            img2Uri = getClass().getResource("/i2.JPG").toURI();
         }catch (Exception e){
 
         }
