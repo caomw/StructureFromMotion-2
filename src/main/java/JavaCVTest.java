@@ -145,4 +145,16 @@ public class JavaCVTest {
         new DetectFaceDemo().run();
     }
 
+    //doc
+    //http://docs.opencv.org/2.4.4-beta/index.html
+
+    //source
+    //http://enl.usc.edu/enl/trunk/aqua/OpenCV-2.3.1/src/org/opencv/features2d/Features2d.java
+
+    //postup
+    //http://opencv-users.1802565.n2.nabble.com/Structure-from-motion-Sequence-of-steps-td5955623.html
+
+    // java
+    //https://github.com/imranakthar/Android-OpenCV-FaceDetectionwithEyes/blob/master/OpenCV-Android-FaceDetect-Eye/SDK/java/src/org/opencv/features2d/Features2d.java
+
 }
