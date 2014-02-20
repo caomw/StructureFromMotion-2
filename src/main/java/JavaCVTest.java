@@ -69,6 +69,12 @@ class DetectFaceDemo {
         Mat img_matches = new Mat();
         Features2d.drawMatches(img1, keyPoints1, img2, keyPoints2, matches, img_matches);
         Highgui.imwrite(filename, img_matches);
+
+        //1. undistort image
+        //Imgproc.initUndistortRectifyMap();
+
+        //2. acquire features
+        //http://developer.sonymobile.com/knowledge-base/tutorials/android_tutorial/get-started-with-opencv-on-android/
     }
 
     /*
@@ -156,5 +162,38 @@ public class JavaCVTest {
 
     // java
     //https://github.com/imranakthar/Android-OpenCV-FaceDetectionwithEyes/blob/master/OpenCV-Android-FaceDetect-Eye/SDK/java/src/org/opencv/features2d/Features2d.java
+
+
+    //http://docs.opencv.org/java/2.4.2/index-all.html
+    //http://docs.opencv.org/java/
+    //http://opencv.org/opencv-java-api.html
+    //http://docs.opencv.org/modules/imgproc/doc/geometric_transformations.html#void%20initUndistortRectifyMap%28InputArray%20cameraMatrix,%20InputArray%20distCoeffs,%20InputArray%20R,%20InputArray%20newCameraMatrix,%20Size%20size,%20int%20m1type,%20OutputArray%20map1,%20OutputArray%20map2%29
+
+
+    /*
+
+    1. Calibrate camera
+    2. Extract local features
+    3. Match features
+    4. Undistort local feature points with intrinsic camera calibration data
+    5. Find fundamental matrix based on undistorted feature points
+    6. Get essential matrix from fundamental matrix
+    7. Compute projection matrix from cam1 to cam2
+    8. Triangulate
+
+
+
+
+    i. calibrate camera
+
+    1. undistort image
+    2. acquire features
+    3. match features
+    4. estimate fundamental matrix
+    5. calculate essential matrix
+    6. calculate R and t
+    7. bundle adjustment (i.e., estimation of 3D points and/or cameras based on
+            minimization of reprojection errors across all images and points)
+    */
 
 }
