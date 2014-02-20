@@ -1,14 +1,14 @@
-import org.opencv.core.*;
+import org.opencv.core.Mat;
+import org.opencv.core.MatOfDMatch;
+import org.opencv.core.MatOfKeyPoint;
 import org.opencv.features2d.DescriptorExtractor;
 import org.opencv.features2d.DescriptorMatcher;
 import org.opencv.features2d.FeatureDetector;
 import org.opencv.features2d.Features2d;
 import org.opencv.highgui.Highgui;
-import org.opencv.objdetect.CascadeClassifier;
 
 import java.io.File;
 import java.net.URI;
-import java.net.URISyntaxException;
 
 /**
  * Created with IntelliJ IDEA.
@@ -28,8 +28,10 @@ class DetectFaceDemo {
         }catch (Exception e){
 
         }
-        Mat img1 = Highgui.imread(new File(img1Uri).getAbsolutePath());
-        Mat img2 = Highgui.imread(new File(img2Uri).getAbsolutePath());
+        Mat img1 = Highgui.imread(new File(img1Uri).getAbsolutePath(),Highgui.CV_LOAD_IMAGE_GRAYSCALE);
+        Mat img2 = Highgui.imread(new File(img2Uri).getAbsolutePath(),Highgui.CV_LOAD_IMAGE_GRAYSCALE);
+
+
         //Mat img1 = imread(argv[1], CV_LOAD_IMAGE_GRAYSCALE);
         //Mat img2 = imread(argv[2], CV_LOAD_IMAGE_GRAYSCALE);
         if(img1.empty() || img2.empty())
@@ -67,7 +69,11 @@ class DetectFaceDemo {
         Mat img_matches = new Mat();
         Features2d.drawMatches(img1, keyPoints1, img2, keyPoints2, matches, img_matches);
         Highgui.imwrite(filename, img_matches);
-        /*System.out.println("\nRunning DetectFaceDemo");
+    }
+
+    /*
+    public void run() {
+        System.out.println("\nRunning DetectFaceDemo");
 
         //-> for mac
         CascadeClassifier faceDetector = new CascadeClassifier(getClass().getResource("/lbpcascade_frontalface.xml").getPath());
@@ -101,8 +107,22 @@ class DetectFaceDemo {
         // Save the visualized detection.
         String filename = "faceDetection.png";
         System.out.println(String.format("Writing %s", filename));
-        Highgui.imwrite(filename, image);*/
+        Highgui.imwrite(filename, image);
     }
+    */
+
+    /*
+    public void run() {
+        Mat m = new Mat(5, 10, CvType.CV_8UC1, new Scalar(0));
+        System.out.println("OpenCV Mat: " + m);
+
+        Mat mr1 = m.row(1);
+        mr1.setTo(new Scalar(1));
+        Mat mc5 = m.col(5);
+        mc5.setTo(new Scalar(5));
+        System.out.println("OpenCV Mat data:\n" + m.dump());
+    }
+    */
 }
 
 public class JavaCVTest {
@@ -122,17 +142,6 @@ public class JavaCVTest {
         }
         System.load( libopencv_java );
 
-        /*Mat m = new Mat(5, 10, CvType.CV_8UC1, new Scalar(0));
-        System.out.println("OpenCV Mat: " + m);
-
-        Mat mr1 = m.row(1);
-        mr1.setTo(new Scalar(1));
-        Mat mc5 = m.col(5);
-        mc5.setTo(new Scalar(5));
-        System.out.println("OpenCV Mat data:\n" + m.dump()); */
-
-
-        // Priklad 2 image face detect
         new DetectFaceDemo().run();
     }
 
