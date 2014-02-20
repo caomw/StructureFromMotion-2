@@ -1,4 +1,8 @@
 import org.opencv.core.*;
+import org.opencv.features2d.DescriptorExtractor;
+import org.opencv.features2d.DescriptorMatcher;
+import org.opencv.features2d.FeatureDetector;
+import org.opencv.features2d.Features2d;
 import org.opencv.highgui.Highgui;
 import org.opencv.objdetect.CascadeClassifier;
 
@@ -16,7 +20,54 @@ import java.net.URISyntaxException;
 
 class DetectFaceDemo {
     public void run() {
-        System.out.println("\nRunning DetectFaceDemo");
+        URI img1Uri = null;
+        URI img2Uri = null;
+        try {
+            img1Uri = getClass().getResource("/lena.png").toURI();
+            img2Uri = getClass().getResource("/lena.png").toURI();
+        }catch (Exception e){
+
+        }
+        Mat img1 = Highgui.imread(new File(img1Uri).getAbsolutePath());
+        Mat img2 = Highgui.imread(new File(img2Uri).getAbsolutePath());
+        //Mat img1 = imread(argv[1], CV_LOAD_IMAGE_GRAYSCALE);
+        //Mat img2 = imread(argv[2], CV_LOAD_IMAGE_GRAYSCALE);
+        if(img1.empty() || img2.empty())
+        {
+            System.out.println("Can't read one of the images\n");
+            //return -1;
+        }
+
+// detecting keypoints
+        // detecting keypoints
+        FeatureDetector detector = FeatureDetector.create(FeatureDetector.DYNAMIC_SURF);
+        MatOfKeyPoint keyPoints1 = new MatOfKeyPoint();
+        MatOfKeyPoint keyPoints2 = new MatOfKeyPoint();
+        detector.detect(img1, keyPoints1);
+        detector.detect(img2, keyPoints2);
+
+
+// computing descriptors
+        DescriptorExtractor extractor = DescriptorExtractor.create(DescriptorExtractor.SURF);
+        Mat descriptors1 = new Mat();
+        Mat descriptors2 = new Mat();
+        extractor.compute(img1, keyPoints1, descriptors1);
+        extractor.compute(img2, keyPoints2, descriptors2);
+
+// matching descriptors
+        DescriptorMatcher floatL2BruteForceMatcher = DescriptorMatcher.create(DescriptorMatcher.BRUTEFORCE_L1);
+        MatOfDMatch matches = new MatOfDMatch();
+        floatL2BruteForceMatcher.match(descriptors1, descriptors2, matches);
+
+// drawing the results
+
+        String filename = "faceDetection.png";
+        System.out.println(String.format("Writing %s", filename));
+
+        Mat img_matches = new Mat();
+        Features2d.drawMatches(img1, keyPoints1, img2, keyPoints2, matches, img_matches);
+        Highgui.imwrite(filename, img_matches);
+        /*System.out.println("\nRunning DetectFaceDemo");
 
         //-> for mac
         CascadeClassifier faceDetector = new CascadeClassifier(getClass().getResource("/lbpcascade_frontalface.xml").getPath());
@@ -50,7 +101,7 @@ class DetectFaceDemo {
         // Save the visualized detection.
         String filename = "faceDetection.png";
         System.out.println(String.format("Writing %s", filename));
-        Highgui.imwrite(filename, image);
+        Highgui.imwrite(filename, image);*/
     }
 }
 
@@ -60,7 +111,7 @@ public class JavaCVTest {
         System.out.println( osName );
 
         String libopencv_java = "";
-        if( osName.equalsIgnoreCase("Mac OS X") ){
+        if( osName.equalsIgnoreCase("Windows 7") ){
 
             libopencv_java  = "D:\\School\\Diplomova_praca\\Intellij\\SFM\\workspace\\StructureFromMotion\\src\\main\\lib\\opencv-2.4.8\\build\\bin\\x64\\opencv_java248.dll";
 
