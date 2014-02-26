@@ -11,4 +11,11 @@ public class UserBase {
 
     public String userUUID = null;
 
+    public UserBase(){}
+
+    public UserBase( String userUUID ){
+
+        this.userUUID = userUUID;
+    }
+
 }

@@ -46,7 +46,8 @@ public class RemoveModel extends ServerResource {
         modelBase.modelUUID = modelUUID;
         modelBase.user = user;
 
-
+        // call remove
+        // ...
 
         return new JacksonRepresentation<Boolean>( false );
     }
@@ -67,7 +68,8 @@ public class RemoveModel extends ServerResource {
         modelBase.modelUUID = modelUUID;
         modelBase.user = user;
 
-
+        // call remove
+        // ...
 
         return new JacksonRepresentation<Boolean>( false );
     }

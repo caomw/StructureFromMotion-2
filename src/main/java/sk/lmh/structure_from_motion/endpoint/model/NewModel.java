@@ -39,6 +39,9 @@ public class NewModel extends ServerResource {
         newModel.modelUUID = UUID.randomUUID().toString().replaceAll("-", "") + "_" + System.currentTimeMillis();
         newModel.user = user;
 
+        // call save
+        // ...
+
         return new JacksonRepresentation<ModelBase>( newModel );
     }
 
@@ -54,6 +57,9 @@ public class NewModel extends ServerResource {
         ModelBase newModel = new ModelBase();
         newModel.modelUUID = UUID.randomUUID().toString().replaceAll("-", "") + "_" + System.currentTimeMillis();
         newModel.user = user;
+
+        // call save
+        // ...
 
         return new JacksonRepresentation<ModelBase>( newModel );
     }

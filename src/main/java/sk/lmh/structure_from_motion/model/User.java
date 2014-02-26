@@ -16,6 +16,13 @@ public class User extends UserBase {
     public String password;
     private List<Model> models = new ArrayList<Model>();
 
+    public User(){}
+
+    public User( String userUUID ){
+
+        this.userUUID = userUUID;
+    }
+
     public void addModels( ArrayList<Model> newModels ){
         this.models.addAll( newModels );
     }

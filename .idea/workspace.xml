@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e44b31dd-826d-447d-a616-46858bf749c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/EditModel.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/EditModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelById.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelById.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelsByIds.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelsByIds.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelsByUser.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelsByUser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindMostLikedModels.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindMostLikedModels.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindNewestModels.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindNewestModels.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/Model.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/Model.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/ModelBase.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/ModelBase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/NewModel.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/NewModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/NewPhotoOfModel.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/NewPhotoOfModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/RemoveModel.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/RemoveModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/ServerApplication.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/ServerApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/UserBase.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/UserBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="StructureFromMotion.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393419443232" ignored="false" />
+    <file path="/Dummy.txt" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393421004531" ignored="false" />
     <file path="/fragment.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393410227610" ignored="false" />
     <file path="/JavaCVTest.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1392935254718" ignored="false" />
     <file path="$PROJECT_DIR$/../../../school/MaGSA/cv1/magsa_cv1/.idea/workspace.xml" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1392888559166" ignored="false" />
@@ -20,16 +31,20 @@
     <file path="/pom.xml" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393409606832" ignored="false" />
     <file path="/Default.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393399328882" ignored="false" />
     <file path="/SaveImages.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393410587212" ignored="false" />
-    <file path="/ServerApplication.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393412925185" ignored="false" />
-    <file path="/NewModel.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393420464788" ignored="false" />
-    <file path="/Model.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393411987822" ignored="false" />
-    <file path="/ModelBase.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393419306499" ignored="false" />
+    <file path="/ServerApplication.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393423222430" ignored="false" />
+    <file path="/NewModel.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393422577935" ignored="false" />
+    <file path="/Model.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393422288032" ignored="false" />
+    <file path="/ModelBase.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393421640914" ignored="false" />
     <file path="/Image.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393411854255" ignored="false" />
-    <file path="/UserBase.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393412538393" ignored="false" />
-    <file path="/User.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393412692400" ignored="false" />
+    <file path="/UserBase.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393422415961" ignored="false" />
+    <file path="/User.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393422397731" ignored="false" />
     <file path="/NewUser.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393418864503" ignored="false" />
-    <file path="/RemoveModel.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393419353320" ignored="false" />
+    <file path="/RemoveModel.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393422604263" ignored="false" />
     <file path="/FindNewestModels.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393420533244" ignored="false" />
+    <file path="/FindModelsByUser.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393421268540" ignored="false" />
+    <file path="/FindModelsByIds.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393422539208" ignored="false" />
+    <file path="/FindModelById.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393423413930" ignored="false" />
+    <file path="/EditModel.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393422503044" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +63,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -85,6 +99,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -93,109 +108,7 @@
     <favorites_list name="StructureFromMotion" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="RemoveModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/RemoveModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="24" selection-start="594" selection-end="2318" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModelBase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/ModelBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindModelById.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelById.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="26" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindModelsByIds.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelsByIds.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="28" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindModelsByUser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelsByUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="29" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindNewestModels.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindNewestModels.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="1" selection-start="1288" selection-end="1441" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1038#1045#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindMostLikedModels.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindMostLikedModels.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="31" selection-start="254" selection-end="254" vertical-scroll-proportion="0.23183925">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerApplication.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/ServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewUser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/NewUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="77" selection-start="1064" selection-end="1100" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/NewModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="40" selection-start="2129" selection-end="2129" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -213,22 +126,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/SaveImages.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/Image.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/Model.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/UserBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/RemoveUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/RegisterUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/LogoutUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/LoginUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/EditUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/ServerApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/NewUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/ModelBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/RemoveModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/Model.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/UserBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/EditModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelsByIds.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelsByUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindMostLikedModels.java" />
         <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindNewestModels.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/RemoveModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/NewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/NewPhotoOfModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/ServerApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelById.java" />
       </list>
     </option>
   </component>
@@ -242,7 +155,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="1" />
     <option name="y" value="22" />
-    <option name="width" value="1420" />
+    <option name="width" value="860" />
     <option name="height" value="818" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -274,7 +187,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -402,36 +315,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="structure_from_motion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StructureFromMotion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StructureFromMotion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="structure_from_motion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -604,9 +487,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -655,7 +538,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="StructureFromMotion" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -671,6 +560,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -699,19 +601,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -813,18 +702,21 @@
       <created>1393419447741</created>
       <updated>1393419447741</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="sfm-restlet 4">
+      <created>1393420902902</created>
+      <updated>1393420902902</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="22" width="1420" height="818" extended-state="0" />
-    <editor active="true" />
+    <frame x="1" y="22" width="860" height="818" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28510028" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -841,11 +733,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26491994" sideWeight="0.6704871" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3037249" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26412776" sideWeight="0.6977077" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30229226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -891,7 +784,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="sfm-restlet 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="sfm-restlet 4" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -911,6 +804,7 @@
     <MESSAGE value="sfm-restlet" />
     <MESSAGE value="sfm-restlet 2" />
     <MESSAGE value="sfm-restlet 3" />
+    <MESSAGE value="sfm-restlet 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -920,29 +814,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/LoginUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="24" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/special/SignUpViaFacebook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/special/SignUpViaGooglePlus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="32" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/ResetUserPassword.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="14" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
@@ -950,78 +821,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/EditModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/NewUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+        <state line="34" column="77" selection-start="1064" selection-end="1100" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/NewPhotoOfModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/ModelBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+        <state line="18" column="13" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="20" selection-start="452" selection-end="457" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/UserBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="13" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="4" selection-start="414" selection-end="507" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelById.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelsByIds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelsByUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="29" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/ServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
+        <state line="46" column="21" selection-start="1362" selection-end="1362" vertical-scroll-proportion="0.60048425">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1330#1337#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/NewUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="77" selection-start="1064" selection-end="1100" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/ModelBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/RemoveModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="24" selection-start="594" selection-end="2318" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="19" column="24" selection-start="594" selection-end="2392" vertical-scroll-proportion="0.37844038">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/NewModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/EditModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="40" selection-start="2129" selection-end="2129" vertical-scroll-proportion="0.0">
+        <state line="50" column="8" selection-start="1620" selection-end="1647" vertical-scroll-proportion="0.6582569">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1030,18 +884,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindNewestModels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="1" selection-start="1288" selection-end="1441" vertical-scroll-proportion="0.0">
+        <state line="39" column="14" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.79587156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelsByIds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="8" selection-start="1483" selection-end="1510" vertical-scroll-proportion="1.3073394">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1038#1045#0" expanded="true" />
+            <element signature="e#1279#1290#0" expanded="true" />
+            <element signature="e#1463#1470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelsByUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="14" selection-start="1339" selection-end="1339" vertical-scroll-proportion="1.2087156">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1292#1299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/ServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="62" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.52287585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/NewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="14" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.4753363">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/NewPhotoOfModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="953" selection-end="953" vertical-scroll-proportion="0.6579521">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindMostLikedModels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="31" selection-start="254" selection-end="254" vertical-scroll-proportion="0.23183925">
-          <folding />
+        <state line="39" column="14" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.788671">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -13,6 +13,17 @@ import java.util.List;
 public class Model extends ModelBase {
 
     public List<Image> images = new ArrayList<Image>();
+    public String modelName = null;
+    public String modelDescription = null;
+
+    public int likes = -1;
+
+
+    public Model(){}
+
+    public Model( String modelUUID ){
+        this.modelUUID = modelUUID;
+    }
 
     public void addImages( ArrayList<Image> newImages ) {
         this.images.addAll(newImages);

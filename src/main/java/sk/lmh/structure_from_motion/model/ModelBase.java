@@ -12,4 +12,11 @@ public class ModelBase {
     public String modelUUID = null;
     public User user = null;
 
+    public ModelBase(){}
+
+    public ModelBase( String modelUUID ){
+
+        this.modelUUID = modelUUID;
+    }
+
 }

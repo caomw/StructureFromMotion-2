@@ -36,6 +36,9 @@ public class FindNewestModels extends ServerResource {
 
         List<Model> modelsList = new ArrayList<Model>();
 
+        // call find
+        // ...
+
         return new JacksonRepresentation< List<Model> >( modelsList );
     }
 
