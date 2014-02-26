@@ -2,33 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e44b31dd-826d-447d-a616-46858bf749c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/EditModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/EditUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelById.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelsByIds.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelsByUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindMostLikedModels.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindNewestModels.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/LoginUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/LogoutUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/NewPhotoOfModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/RegisterUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/RemoveModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/RemoveUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/ResetUserPassword.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/special/SignUpViaFacebook.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/special/SignUpViaGooglePlus.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/SaveImages.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Endpoints_documentation.xlsx" afterPath="$PROJECT_DIR$/src/main/resources/Endpoints_documentation.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/ModelBase.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/ModelBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/NewModel.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/NewModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/NewUser.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/NewUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/ServerApplication.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/ServerApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="StructureFromMotion.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393413819891" ignored="false" />
+    <file path="/Dummy.txt" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393419411771" ignored="false" />
     <file path="/fragment.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393410227610" ignored="false" />
     <file path="/JavaCVTest.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1392935254718" ignored="false" />
     <file path="$PROJECT_DIR$/../../../school/MaGSA/cv1/magsa_cv1/.idea/workspace.xml" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1392888559166" ignored="false" />
@@ -795,7 +773,11 @@
       <created>1393413827992</created>
       <updated>1393413827992</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="sfm-restlet 2">
+      <created>1393419420480</created>
+      <updated>1393419420480</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -872,7 +854,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="sfm-restlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="sfm-restlet 2" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -890,6 +872,7 @@
     <MESSAGE value="new sources" />
     <MESSAGE value="sfm" />
     <MESSAGE value="sfm-restlet" />
+    <MESSAGE value="sfm-restlet 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
