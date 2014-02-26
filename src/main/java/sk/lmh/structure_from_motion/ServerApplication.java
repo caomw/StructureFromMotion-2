@@ -50,6 +50,8 @@ public class ServerApplication extends Application {
         router.attach("/model/findMostLikedModels", FindMostLikedModels.class);
 
 
+        router.attach("/image/image", image.class);
+
         router.attachDefault(Default.class);
 
         router.setContext(getContext());
