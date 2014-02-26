@@ -2,70 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e44b31dd-826d-447d-a616-46858bf749c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/model/like/AddLikeForModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/Default.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/model/EditModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/user/EditUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/model/FindModelById.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/model/FindModelsByIds.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/model/FindModelsByUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/model/FindMostLikedModels.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/model/FindNewestModels.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/model/Image.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/item/ItemPhotoDownload.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/item/ItemPhotoUpload.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/user/LoginUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/user/LogoutUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/model/Model.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/model/ModelBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/model/NewModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/model/NewPhotoOfModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/user/NewUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/user/RegisterUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/model/like/RemoveLikeForModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/model/RemoveModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/user/RemoveUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/user/ResetUserPassword.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/user/special/SignUpViaFacebook.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/user/special/SignUpViaGooglePlus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/model/UserBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/model/image.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/ServerApplicationFTP.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/Default.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/EditModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelById.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelsByIds.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelsByUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindMostLikedModels.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindNewestModels.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/NewModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/NewPhotoOfModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/RemoveModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/image.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/EditUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/LoginUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/LogoutUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/NewUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/RegisterUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/RemoveUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/ResetUserPassword.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/special/SignUpViaFacebook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/user/special/SignUpViaGooglePlus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/Image.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/Model.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/ModelBase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/UserBase.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/Server.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/Server.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/ServerApplication.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/ServerApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_social_spring_social_core_1_0_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_social_spring_social_facebook_1_0_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_3_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_1_0_RELEASE.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Endpoints_documentation.xlsx" afterPath="$PROJECT_DIR$/src/main/resources/Endpoints_documentation.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/util/IOUtil.java" afterPath="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/util/IOUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="StructureFromMotion.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393435675592" ignored="false" />
+    <file path="/Dummy.txt" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393441559975" ignored="false" />
     <file path="/fragment.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1393424484754" ignored="false" />
     <file path="/JavaCVTest.java" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1392935254718" ignored="false" />
     <file path="$PROJECT_DIR$/../../../school/MaGSA/cv1/magsa_cv1/.idea/workspace.xml" changelist="e44b31dd-826d-447d-a616-46858bf749c1" time="1392888559166" ignored="false" />
@@ -161,10 +115,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ServerApplication.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ServerApplication.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/ServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="71" selection-start="2356" selection-end="2356" vertical-scroll-proportion="0.2510288">
+            <state line="52" column="71" selection-start="2356" selection-end="2356" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="14" selection-start="653" selection-end="653" vertical-scroll-proportion="0.57174885">
               <folding />
             </state>
           </provider>
@@ -241,17 +207,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemPhotoUpload.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/item/ItemPhotoUpload.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="45" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="image.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/model/image.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -281,7 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/FindModelById.java" />
         <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/model/ServerApplicationFTP.java" />
         <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/endpoint/model/image.java" />
         <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/ServerApplicationFTP.java" />
@@ -297,6 +251,7 @@
         <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/model/like/AddLikeForModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/model/like/RemoveLikeForModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/ServerApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -960,7 +915,11 @@
       <created>1393425327259</created>
       <updated>1393425327260</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="sfm-restlet 7&#10;">
+      <created>1393441578514</created>
+      <updated>1393441578515</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1038,7 +997,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="sfm-restlet 6&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="sfm-restlet 7&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1061,6 +1020,7 @@
     <MESSAGE value="sfm-restlet 4" />
     <MESSAGE value="sfm-restlet 5" />
     <MESSAGE value="sfm-restlet 6&#10;" />
+    <MESSAGE value="sfm-restlet 7&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1070,13 +1030,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/endpoint/model/NewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="639" selection-end="2246" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/util/IOUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="6" selection-start="1808" selection-end="1808" vertical-scroll-proportion="0.0">
@@ -1194,7 +1147,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sk/lmh/structure_from_motion/restlet/ServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="71" selection-start="2356" selection-end="2356" vertical-scroll-proportion="0.2510288">
+        <state line="52" column="71" selection-start="2356" selection-end="2356" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="14" selection-start="653" selection-end="653" vertical-scroll-proportion="0.57174885">
           <folding />
         </state>
       </provider>
