@@ -6,7 +6,7 @@ import org.restlet.Response;
 import org.restlet.ext.jackson.JacksonRepresentation;
 import org.restlet.representation.Representation;
 import org.restlet.resource.*;
-import sk.lmh.structure_from_motion.restlet.model.ModelBase;
+import sk.lmh.structure_from_motion.model.ModelBase;
 
 /**
  * Created with IntelliJ IDEA.

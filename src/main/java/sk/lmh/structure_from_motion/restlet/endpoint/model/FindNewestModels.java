@@ -6,7 +6,7 @@ import org.restlet.Response;
 import org.restlet.ext.jackson.JacksonRepresentation;
 import org.restlet.representation.Representation;
 import org.restlet.resource.*;
-import sk.lmh.structure_from_motion.restlet.model.Model;
+import sk.lmh.structure_from_motion.model.Model;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -7,8 +7,8 @@ import org.restlet.data.Form;
 import org.restlet.ext.jackson.JacksonRepresentation;
 import org.restlet.representation.Representation;
 import org.restlet.resource.*;
-import sk.lmh.structure_from_motion.restlet.model.ModelBase;
-import sk.lmh.structure_from_motion.restlet.model.User;
+import sk.lmh.structure_from_motion.model.ModelBase;
+import sk.lmh.structure_from_motion.model.User;
 
 /**
  * Created with IntelliJ IDEA.

@@ -1,4 +1,4 @@
-package sk.lmh.structure_from_motion.restlet.model;
+package sk.lmh.structure_from_motion.model;
 
 /**
  * Created with IntelliJ IDEA.

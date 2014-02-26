@@ -8,7 +8,7 @@ import org.restlet.representation.Representation;
 import org.restlet.resource.Get;
 import org.restlet.resource.Post;
 import org.restlet.resource.ServerResource;
-import sk.lmh.structure_from_motion.restlet.model.UserBase;
+import sk.lmh.structure_from_motion.model.UserBase;
 
 import java.util.UUID;
 

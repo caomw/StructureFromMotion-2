@@ -7,8 +7,8 @@ import org.restlet.data.Form;
 import org.restlet.ext.jackson.JacksonRepresentation;
 import org.restlet.representation.Representation;
 import org.restlet.resource.*;
-import sk.lmh.structure_from_motion.restlet.model.Model;
-import sk.lmh.structure_from_motion.restlet.model.UserBase;
+import sk.lmh.structure_from_motion.model.Model;
+import sk.lmh.structure_from_motion.model.UserBase;
 
 import java.util.ArrayList;
 import java.util.List;
