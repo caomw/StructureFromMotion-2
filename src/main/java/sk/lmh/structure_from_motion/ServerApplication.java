@@ -4,7 +4,6 @@ import org.restlet.Application;
 import org.restlet.routing.Router;
 import sk.lmh.structure_from_motion.endpoint.Default;
 import sk.lmh.structure_from_motion.endpoint.model.NewModel;
-import sk.lmh.structure_from_motion.endpoint.model.SaveImages;
 import sk.lmh.structure_from_motion.endpoint.user.NewUser;
 
 /**
@@ -26,7 +25,6 @@ public class ServerApplication extends Application {
 
         router.attach("/model/new", NewModel.class);
 
-        router.attach("/image/save", SaveImages.class);
         router.attachDefault(Default.class);
 
         router.setContext(getContext());

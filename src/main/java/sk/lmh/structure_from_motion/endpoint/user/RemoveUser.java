@@ -16,10 +16,10 @@ import java.util.UUID;
  * Created with IntelliJ IDEA.
  * User: lukasmartinovic
  * Date: 26/02/2014
- * Time: 12:00
+ * Time: 12:25
  * To change this template use File | Settings | File Templates.
  */
-public class NewUser extends ServerResource {
+public class RemoveUser extends ServerResource {
 
     @Override
     public void init(Context context, Request request, Response response) {
@@ -32,8 +32,7 @@ public class NewUser extends ServerResource {
     public Representation get(Representation entity) throws Exception {
 
         UserBase newUser = new UserBase();
-        //newUser.userUUID = UUID.randomUUID().toString().replaceAll("-", "") + "_" + System.currentTimeMillis();
-        newUser.userUUID = UUID.randomUUID().toString() + "_" + System.currentTimeMillis();
+        newUser.userUUID = UUID.randomUUID().toString().replaceAll("-", "");
 
         return new JacksonRepresentation<UserBase>( newUser );
     }

@@ -8,34 +8,26 @@ import org.restlet.ext.jackson.JacksonRepresentation;
 import org.restlet.representation.Representation;
 import org.restlet.resource.*;
 import sk.lmh.structure_from_motion.model.ModelBase;
-
-import java.util.UUID;
+import sk.lmh.structure_from_motion.model.User;
 
 /**
  * Created with IntelliJ IDEA.
  * User: lukasmartinovic
  * Date: 26/02/2014
- * Time: 08:11
+ * Time: 13:44
  * To change this template use File | Settings | File Templates.
  */
-public class NewModel extends ServerResource {
+public class RemoveModel extends ServerResource {
 
     @Override
     public void init(Context context, Request request, Response response) {
         super.init(context, request, response);
-   }
+    }
 
     @Get
     public Representation getRepresentation(Representation entity) throws Exception {
 
-        Form form = new Form(entity);
-        String userUUID = form.getFirstValue("userUUID");
-
-        ModelBase newModel = new ModelBase();
-        newModel.modelUUID = UUID.randomUUID().toString().replaceAll("-", "") + "_" + System.currentTimeMillis();
-        newModel.userUUID = userUUID;
-
-        return new JacksonRepresentation<ModelBase>( newModel );
+        return new JacksonRepresentation<ModelBase>( null );
     }
 
     @Post
@@ -43,18 +35,41 @@ public class NewModel extends ServerResource {
 
         Form form = new Form(entity);
         String userUUID = form.getFirstValue("userUUID");
+        String userPassword = form.getFirstValue("userPassword");
+        String modelUUID = form.getFirstValue("modelUUID");
 
-        ModelBase newModel = new ModelBase();
-        newModel.modelUUID = UUID.randomUUID().toString().replaceAll("-", "") + "_" + System.currentTimeMillis();
-        newModel.userUUID = userUUID;
+        User user = new User();
+        user.userUUID = userUUID;
+        user.userUUID = userUUID;
 
-        return new JacksonRepresentation<ModelBase>( newModel );
+        ModelBase modelBase = new ModelBase();
+        modelBase.modelUUID = modelUUID;
+        modelBase.user = user;
+
+
+
+        return new JacksonRepresentation<Boolean>( false );
     }
 
     @Delete
     public Representation deleteRepresentation(Representation entity) throws Exception {
 
-        return new JacksonRepresentation<ModelBase>( null );
+        Form form = new Form(entity);
+        String userUUID = form.getFirstValue("userUUID");
+        String userPassword = form.getFirstValue("userPassword");
+        String modelUUID = form.getFirstValue("modelUUID");
+
+        User user = new User();
+        user.userUUID = userUUID;
+        user.userUUID = userUUID;
+
+        ModelBase modelBase = new ModelBase();
+        modelBase.modelUUID = modelUUID;
+        modelBase.user = user;
+
+
+
+        return new JacksonRepresentation<Boolean>( false );
     }
 
     @Put
